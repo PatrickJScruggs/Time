@@ -1,3 +1,9 @@
+# Arduino Time64 Library
+
+This version of the library has been modified to work with a base int64_t time varaible. This avoids the year 2038 problem, and even allows clock times hundrends of billions of 
+years into the past and future to be calcualted. All other functionality is the same as the origonal Time library. The documentation of that functionality is duplciated below, 
+for your convenience.
+
 # Arduino Time Library
 
 Time is a library that provides timekeeping functionality for Arduino.
